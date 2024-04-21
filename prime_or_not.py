@@ -9,4 +9,4 @@ if num>1:
 if k==0:
     print("Non prime")
 else:
-    print("Prime number")
+    print(("Prime number"))
