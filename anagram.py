@@ -1,8 +1,8 @@
-str1=input("Enter the valid string")
-str2=input("enter the valid string")
-l=sorted(str1)
-l2=sorted(str2)
-if l==l2:
-    print("Anagram")
+n=input("Enter string 1:")
+m=input("Enter string 2:")
+l=sorted(n)
+k=sorted(m)
+if l==k:
+    print("Two strings are anagram")
 else:
-    print("Not a anagram")
+    print("Two strings are not anagram")
