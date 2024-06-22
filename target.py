@@ -1,8 +1,10 @@
-n=int(input("enter number:"))
-f=1
-if n==0:
-    print("factorial is",f)
-elif n > 0:
-    for i in range(2,n+1):
-        f=f*i
-print("The factorial is ",f)
+num=int(input("enter the number:"))
+count=0
+n1=0
+n2=1
+while count < num:
+    print(n1)
+    c=n1+n2
+    n1=n2
+    n2=c
+    count+=1
