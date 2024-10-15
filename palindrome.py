@@ -1,11 +1,7 @@
-num=int(input("enter the number:"))
-temp=num
-rev=0
-while temp>0:
-    rem=temp%10
-    rev=(rev*10)+rem
-    temp=temp//10
-if num ==rev:
-    print("Palindrome")
+n=int(input("Enter the number:"))
+n=str(n)
+h=n[::-1]
+if n==h:
+    print("The number is palindrome")
 else:
-    print("Not a palindrome")
+    print("The number is not a palindrome")
