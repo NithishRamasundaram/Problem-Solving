@@ -1,9 +1,9 @@
-a=int(input("a:"))
-b=int(input("b:"))
-c=int(input("c:"))
+a=int(input("Number 1:"))
+b=int(input("Number 2:"))
+c=int(input("Number 3:"))
 if a<b and a<c:
-    print("a is smaller")
+    print("A is smaller")
 elif b<a and b<c:
-    print("b is smaller")
+    print("B is  Smaller")
 else:
-    print("c is smaller")
+    print("C is Smaller9")
