@@ -1,8 +1,10 @@
 a=input("Enter string 1:")
-b=input("Enter String 2:")
-c=sorted(a)
-d=sorted(b)
-if c==d:
-    print("Two String are Anagram")
+b=input("Enter string 2:")
+a=a.replace(" ","").lower()
+b=b.replace(" ","").lower()
+n=sorted(a)
+m=sorted(b)
+if n==m:
+    print("Given strings are anagram")
 else:
-    print("Two Strings are not Anagram")
+    print("Given strings are not anagram")
