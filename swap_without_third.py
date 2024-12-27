@@ -1,4 +1,4 @@
-n=0
-m=8
-n,m=m,n
-print(n,m)
+a=0
+b=1
+a,b=b,a
+print(a,b)

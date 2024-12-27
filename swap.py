@@ -1,6 +1,6 @@
-n=9
-m=0
-tem=n
-n=m
-m=tem
-print(n,m)
+a=0
+b=1
+c=a
+a=b
+b=c
+print(a,b)
