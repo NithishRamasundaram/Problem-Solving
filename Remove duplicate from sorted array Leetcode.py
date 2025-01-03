@@ -1,4 +1,4 @@
-n=list(map(int,input("Enter the list:").split(",")))
+n=list(map(int,input("Enter the sorted list:").split(",")))
 uniq=[]
 for i in n:
     if i not in uniq:
