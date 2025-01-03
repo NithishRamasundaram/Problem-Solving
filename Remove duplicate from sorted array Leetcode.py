@@ -4,5 +4,4 @@ for i in n:
     if i not in uniq:
         uniq.append(i)
 k=len(uniq)
-uniq.sort()
 print(k,uniq)
